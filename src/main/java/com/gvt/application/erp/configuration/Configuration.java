@@ -1,5 +1,11 @@
 package com.gvt.application.erp.configuration;
 
-public class Configuration {
+import com.gvt.application.accesscontrol.client.LoginScreen;
 
-}
+public class Configuration
+	{
+		public static void main(String[] args)
+			{
+				LoginScreen loginScreen = new LoginScreen();
+			}
+	}
