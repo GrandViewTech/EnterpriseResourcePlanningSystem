@@ -3,9 +3,9 @@ package com.gvt.application.screen;
 import java.awt.Color;
 
 import javax.swing.JFrame;
-import javax.swing.JPanel;
 import javax.swing.JTabbedPane;
-import javax.swing.UIManager;
+
+import com.gvt.application.screen.travelmanagement.TravelManagement;
 
 public class BackGroudScreen extends JFrame
 	{
@@ -31,6 +31,7 @@ public class BackGroudScreen extends JFrame
 				
 				tabbedPane.addTab("Dashboard", new Dashboard());
 				tabbedPane.addTab("Dealer Management", new DealerScreen());
+				tabbedPane.addTab("Travel Management", new TravelManagement());
 				add(tabbedPane);
 			}
 			

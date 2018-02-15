@@ -5,8 +5,6 @@ import java.util.ArrayList;
 
 import javax.swing.JPanel;
 
-import com.sun.xml.internal.bind.v2.schemagen.xmlschema.List;
-
 import javafx.application.Platform;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -19,8 +17,6 @@ import javafx.scene.chart.PieChart;
 import javafx.scene.control.Label;
 import javafx.scene.control.Tooltip;
 import javafx.scene.input.MouseEvent;
-import javafx.scene.text.Font;
-import javafx.scene.text.Text;
 
 public class Dashboard extends JPanel
 	{
