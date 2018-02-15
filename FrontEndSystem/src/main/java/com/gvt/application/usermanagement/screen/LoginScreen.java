@@ -1,7 +1,5 @@
 package com.gvt.application.usermanagement.screen;
 
-import java.awt.Dimension;
-
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -9,7 +7,7 @@ import javax.swing.JPanel;
 import javax.swing.JPasswordField;
 import javax.swing.JTextField;
 
-import com.gvt.application.screen.BackGroudScreen;
+import com.gvt.application.common.screen.BackGroudScreen;
 import com.gvt.application.usermanagement.service.AuthenticateService;
 
 public class LoginScreen extends JFrame
