@@ -23,7 +23,7 @@ import com.mchange.v2.c3p0.ComboPooledDataSource;
 
 @Configuration
 @EnableJpaRepositories(basePackages =
-	{ "com.gvt.application.travelmanagement.service.repository" })
+	{ "com.gvt.application.travelmanagement.service.repository" , "com.gvt.application.usermanagement.service.repository" })
 public class MySqlConfiguration
 	{
 		
@@ -57,7 +57,7 @@ public class MySqlConfiguration
 		public Boolean				showDdl;
 		
 		public String[]				packagesToScan	= new String[]
-			{ "com.gvt.application.travelmanagement.entity.bo" };
+			{ "com.gvt.application.travelmanagement.entity.bo","com.gvt.application.usermanagement.entity.bo" };
 			
 		@Bean
 		public DataSource dataSource()
